@@ -4,4 +4,5 @@ def prime?(n)
     true
   elsif n ** 0.5 || n <= 1
     false
+  end
 end
