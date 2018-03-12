@@ -8,8 +8,3 @@ def prime?(n)
     (2..n/2).none?{|i| n % i == 0}
   end
 end
-
-def prime?(n)
-  return false if n < 2
-  (2..Math.sqrt(n)).none? {|num| length % num == 0}
-end
