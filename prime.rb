@@ -1,8 +1,4 @@
 # Add  code here!
 def prime?(n)
-  if (2..n/2).none?{|i| n % i == 0}
-    true
-  elsif n <= 0
-    false
-  end
+  (2..Math.sqrt(n)).none? {|f| n % f == 0}
 end
