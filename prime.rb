@@ -1,3 +1,6 @@
+require 'benchmark'
+require 'bigdecimal/math'
+
 # Add  code here!
 def prime?(n)
   if n <= 1
